@@ -3,8 +3,10 @@ from PIL import Image, ImageOps
 import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
-from PIL import Image as im
-import torchvision
+
+
+st.title("使用 GAN 随机生成的数字图像")
+st.write("教程"" [link](https://www.youtube.com/watch?v=OXWvrRLzEaU&t=45s)")
 
 
 class Generator(nn.Module):
